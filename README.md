@@ -1,9 +1,9 @@
-//Circulo-en-movimiento.//
+Circulo en movimiento
 
-#include <SFML/Graphics.hpp>
-#include <stdio.h>
-int main()
-{
+    #include <SFML/Graphics.hpp>
+    #include <stdio.h>
+    int main()
+    {
     int ancho_window = 1500, alto_window = 900;
     int y_coord = alto_window / 2;
     int x_coord = ancho_window / 2;
@@ -34,4 +34,4 @@ int main()
         window.display();
     }
     return 0;
-}
+    }
